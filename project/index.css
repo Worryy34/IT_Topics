@@ -1,0 +1,23 @@
+.header1{
+    position: center;
+}
+
+.jumbotron {
+    background-image: url(images/header.webp);
+    background-size: cover;
+}
+
+.lead, .lead2, .display-4 {
+    color: white;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#footer {
+    position: absolute;
+    width: 1000px;
+}

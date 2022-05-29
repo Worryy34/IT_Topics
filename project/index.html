@@ -3,13 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="Author" content= "Gideon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Startpagina</title>
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #b0d9f5;">
+      <!-- Navbar-->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-white">
             <a class="navbar-brand" href="#">Gideon</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -24,11 +27,90 @@
               </div>
             </div>
           </nav>
-        <h1>Startpagina</h1>
-        <p>
-            Hallo, mijn naam is Gideon Vaneysendeyk. Ik ben een 19 jarige student uit Mol
-            <br>
-            Ik ben een 19 jarige student uit Mol die Systeem en Netwerkbeheer volgt op Thomas More Geel.
-        </p>
-    </body>
+          <!-- Jumbotron -->
+          <div class="jumbotron">
+            <h1 class="display-4">Startpagina</h1>
+            <p class="lead">Hallo, mijn naam is Gideon Vaneysendeyk.</p>
+            <p class="lead2">Welkom op mijn website.
+              <br>
+               Ik ben een 19 jarige student uit Mol die Systeem en Netwerkbeheer volgt op Thomas More Geel.
+              </p>
+          </div>
+          <h1 class="Header1">Een beetje over mezelf</h1>
+          <p> Ik ben een meegaande en gepassioneerde student die bereid is om te leren en
+            nieuwe dingen ontdekken. Een computerliefhebber die de ins en outs van zowel
+            software als hardware goed kent.
+          </p>
+
+          <!-- cards -->
+         <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="card">
+                <a href="hobby's.html">
+                  <img src="images/skifoto.jpg" alt="smoll" class="card-img-top">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Hobby's</h5>
+                  <p class="card-text">Wat doe ik zo al in mijn vrije tijd? Kom het te weten door op deze foto te klikken</p>
+                </div>
+              </div>
+            </div>
+              <div class="col-4">
+                <div class="card">
+                  <a href="cv.html">
+                  <img src="images/experience-marketing-2560x1100.webp" alt="smoll" class="card-img-top">
+                </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Ervaring</h5>
+                    <p class="card-text">Als je wat meer over mijn ervaring wilt weten, klik dan op deze foto</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <a href="contact.html">
+                  <img src="images/person_110935.png" alt="smoll" class="card-img-top">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Mijn CV</h5>
+                  <p class="card-text">Wilt u graag mijn CV bekijken? Klik dan op deze foto om naar de pagina te gaan.</p>
+                </div>
+              </div>
+            </div>
+               <!-- Footer -->
+               <footer class="bg-dark text-center text-white" style="background-color: #0d0d0e;">
+                <div class="container p-4 pb-0">
+                  <!-- Social media -->
+                  <section class="mb-4">
+                    <a
+                      class="btn btn-primary btn-floating m-1"
+                      style="background-color: #3b5998;"
+                      href="#"
+                      role="button"
+                      ><i class="fa fa-facebook"></i
+                    ></a>
+                    <a
+                      class="btn btn-primary btn-floating m-1"
+                      style="background-color: #55acee;"
+                      href="#"
+                      role="button"
+                      ><i class="fa fa-twitter"></i
+                    ></a>
+                    <a
+                      class="btn btn-primary btn-floating m-1"
+                      style="background-color: #333333;"
+                      href="#"
+                      role="button"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </section>
+                </div>
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                  © 2020 Copyright:
+                  <a class="text-white">Gideon Vaneysendeyk</a>
+                </div>
+              </footer>
+            </body>
 </html>
